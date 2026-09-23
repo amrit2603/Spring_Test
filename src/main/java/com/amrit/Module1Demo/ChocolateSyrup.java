@@ -4,6 +4,6 @@ public class ChocolateSyrup implements Syrup{
 
     @Override
     public String getSyrupType() {
-        return "Chocolate";
+        return "Chocolates on the house";
     }
 }
