@@ -4,6 +4,6 @@ public class ChocolateFrosting implements Frosting{
 
     @Override
     public String getFrostingType() {
-        return "Chocolatates";
+        return "Chocolatates on the house";
     }
 }
