@@ -1,0 +1,39 @@
+[33mcommit db2f7de08ad49933b63f35b0ab1e27dc7c694de8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author:     amrit2603 <theamritkumar263@gmail.com>
+AuthorDate: Wed Sep 23 20:58:21 2026 +0530
+Commit:     amrit2603 <theamritkumar263@gmail.com>
+CommitDate: Wed Sep 23 20:58:21 2026 +0530
+
+    Learned DeleteMapping
+
+[33mcommit d44408d0bc94eee6bd6a63bb81e77069a15501c2[m
+Author:     amrit2603 <theamritkumar263@gmail.com>
+AuthorDate: Wed Sep 23 20:56:35 2026 +0530
+Commit:     amrit2603 <theamritkumar263@gmail.com>
+CommitDate: Wed Sep 23 20:56:35 2026 +0530
+
+    Learned DeleteMapping
+
+[33mcommit 1d327760b7a2b07ef84b6ea47e8c46758bb105e1[m
+Author:     amrit2603 <theamritkumar263@gmail.com>
+AuthorDate: Wed Sep 23 20:56:12 2026 +0530
+Commit:     amrit2603 <theamritkumar263@gmail.com>
+CommitDate: Wed Sep 23 20:56:12 2026 +0530
+
+    Learned Putmapping
+
+[33mcommit 09f01d5516e203de502e5042fd096dc8c4eed32d[m
+Author:     amrit2603 <theamritkumar263@gmail.com>
+AuthorDate: Wed Sep 23 20:55:48 2026 +0530
+Commit:     amrit2603 <theamritkumar263@gmail.com>
+CommitDate: Wed Sep 23 20:55:48 2026 +0530
+
+    Learned PostMapping
+
+[33mcommit 5ee621575aa7fe8b6e3b4bf1c648f1514a5b90cf[m
+Author:     amrit2603 <theamritkumar263@gmail.com>
+AuthorDate: Wed Sep 23 20:55:28 2026 +0530
+Commit:     amrit2603 <theamritkumar263@gmail.com>
+CommitDate: Wed Sep 23 20:55:28 2026 +0530
+
+    Learned getMapping
