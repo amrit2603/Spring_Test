@@ -41,7 +41,7 @@ public class EmployeeController {
 
     @PutMapping(path = "/{employeeId}")
     public ResponseEntity<EmployeeDTO> updateEmployeeById(@RequestBody @Valid EmployeeDTO employeeDTO, @PathVariable Long employeeId) {
-        return ResponseEntity.ok(employeeService.updateEmployeeById(employeeId, employeeDTO));
+        return ResponseEntity.ok(employeeService.updateEmployeeById(employeeId, employeeDTO));//PostMapping is done
     }
 
     @DeleteMapping(path = "/{employeeId}")
