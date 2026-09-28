@@ -55,7 +55,7 @@ public class EmployeeController {
     public ResponseEntity<EmployeeDTO> updatePartialEmployeeById(@RequestBody Map<String, Object> updates,
                                                                  @PathVariable Long employeeId) {
         EmployeeDTO employeeDTO = employeeService.updatePartialEmployeeById(employeeId, updates);
-        if (employeeDTO == null) return ResponseEntity.notFound().build();
+        if (employeeDTO == null) return ResponseEntity.notFound().build();//Learned PatchMapping
         return ResponseEntity.ok(employeeDTO);
     }
 
