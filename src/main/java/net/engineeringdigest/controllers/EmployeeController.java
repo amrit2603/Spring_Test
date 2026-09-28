@@ -47,7 +47,7 @@ public class EmployeeController {
     @DeleteMapping(path = "/{employeeId}")
     public ResponseEntity<Boolean> deleteEmployeeById(@PathVariable Long employeeId) {
         boolean gotDeleted = employeeService.deleteEmployeeById(employeeId);
-        if (gotDeleted) return ResponseEntity.ok(true);
+        if (gotDeleted) return ResponseEntity.ok(true);//DeleteMapping is here
         return ResponseEntity.notFound().build();
     }
 
