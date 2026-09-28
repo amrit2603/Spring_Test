@@ -27,7 +27,7 @@ public class EmployeeController {
     }
 
     @GetMapping
-    public ResponseEntity<List<EmployeeDTO>> getAllEmployees(@RequestParam(required = false,name = "inputAge") Integer age,
+    public ResponseEntity<List<EmployeeDTO>> getAllEmployees(@RequestParam(required = false,name = "inputAge enter here") Integer age,
                                                              @RequestParam(required = false) String sortBy){
         return ResponseEntity.ok(employeeService.getAllEmployees());
     }
