@@ -17,7 +17,7 @@ public class EmployeeDTO {
 
     private Long id;
 
-    @NotBlank(message = "Name of the employee cannot be blank")
+    @NotBlank(message = "Name of the employee cannot be blank and this is the power")
     @Size(min = 3,max=10,message = "Number of characters in name should be in the range : [3,10]")
     private String name;
 
