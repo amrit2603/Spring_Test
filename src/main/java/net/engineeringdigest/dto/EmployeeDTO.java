@@ -35,7 +35,7 @@ public class EmployeeDTO {
     private String role;
 
     @NotNull(message = "Salary of Employee should be not be null")
-    @Positive(message = "Salary of the Employee should be positive")
+    @Positive(message = "Salary of the Employee should be positive and positive")
     @Digits(integer = 6,fraction =2,message = "The Salary can be in the form XXXXX.YY")
     @DecimalMin(value = "100.50")
     private Double salary;
