@@ -26,7 +26,7 @@ public class EmployeeDTO {
     private String email;
 
     @NotNull(message = "Age of the employee cannot be blank")
-    @Max(value = 80,message = "Age of Employee cannot be greater than 80")
+    @Max(value = 80,message = "Age of Employee cannot be greater than 80 and less than 80")
     @Min(value = 18,message = " Age of Employee cannot be less than 18 and this is it")
     private Integer age;
 
