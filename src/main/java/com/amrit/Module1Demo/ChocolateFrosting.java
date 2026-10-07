@@ -1,0 +1,9 @@
+package com.amrit.Module1Demo;
+
+public class ChocolateFrosting implements Frosting{
+
+    @Override
+    public String getFrostingType() {
+        return "Chocolatates on the house";
+    }
+}
